@@ -27,6 +27,14 @@ ul li a {
   text-decoration: none;
   font-style: normal;
 }
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  outline: 2px solid aquamarine;
+}
 /* Шапка сайта */
 /* .header {
   width: 1600px;
@@ -48,6 +56,10 @@ ul li a {
 }
 .blue-logo {
   color: var(--accent-color);
+}
+.header {
+  display: flex;
+  text-align: center;
 }
 .site-nav .link {
   color: var(--main-text-color);
@@ -91,15 +103,19 @@ ul li a {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  max-width: 696px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .hero-button {
   position: absolute;
-  width: 200px;
-  height: 50px;
   left: 700px;
   top: 430px;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  text-align: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -147,7 +163,7 @@ ul li a {
   font-size: 16px;
   line-height: 1.18;
 }
-.section-portfolio .title {
+.portfolio .title {
   display: none;
 }
 .btn {
