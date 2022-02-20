@@ -292,10 +292,15 @@ address {
 }
 /* Подвал сайта */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: var(--white);
   background-color: var(--secondary-bg-color);
-  width: 1600px;
-  height: 252px;
+  /* width: 1600px;
+  height: 252px; */
+}
+.footer .address-list {
+  margin-top: 20px;
 }
 .footer .logo {
   color: var(--white);
