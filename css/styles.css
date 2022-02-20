@@ -65,7 +65,6 @@ address {
   white-space: nowrap;
   clip-path: inset(100%);
 }
-
 .logo {
   color: var(--main-text-color);
   padding-top: 24px;
@@ -191,8 +190,9 @@ address {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section .peculiarities-list {
+.peculiarities-list {
   display: flex;
+  margin-bottom: 50px;
 }
 .section .item {
   margin-right: 30px;
@@ -207,9 +207,6 @@ address {
   padding-top: 0;
 }
 
-.peculiarities-list {
-  margin-bottom: 50px;
-}
 .list {
   display: flex;
 }
@@ -233,12 +230,33 @@ address {
   line-height: 1.17;
   text-align: center;
 }
+.section.team {
+  background-color: var(--btn-bg-color);
+}
+.section-team {
+  display: flex;
+}
+.section-team .item {
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.section-team .box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: var(--white);
+}
 .section-team .member {
+  margin-top: 10px;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 .section-team .profesion {
+  margin-top: 10px;
+  text-align: center;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.18;
@@ -305,5 +323,5 @@ address {
   padding-right: 15px;
   margin: auto;
   width: 1200px;
-  outline: 2px solid aquamarine;
+  /* outline: 2px solid aquamarine; */
 }
