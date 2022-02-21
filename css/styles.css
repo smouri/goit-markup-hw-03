@@ -102,8 +102,8 @@ address {
 .site-nav .link {
   display: block;
   color: var(--main-text-color);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
