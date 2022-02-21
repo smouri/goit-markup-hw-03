@@ -84,6 +84,7 @@ address {
 }
 .site-nav {
   display: flex;
+  align-items: center;
 }
 .header .list {
   display: flex;
@@ -199,10 +200,11 @@ address {
 }
 .peculiarities-list {
   display: flex;
-  margin-bottom: 50px;
+}
+.peculiarities-list .item {
+  width: 270px;
 }
 .section .item {
-  width: 370px;
   margin-right: 30px;
 }
 .section .item:last-child {
@@ -230,6 +232,7 @@ address {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .section-title {
   margin-bottom: 50px;
@@ -270,9 +273,9 @@ address {
 .button-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
-.button-list .btn {
+.button-list .button-item:not(:last-child) {
   margin-right: 10px;
 }
 .portfolio .title {
@@ -312,6 +315,7 @@ address {
   background-color: var(--white);
 }
 .project-list .project-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
