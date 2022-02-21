@@ -38,6 +38,9 @@ ul li a {
   text-decoration: none;
   font-style: normal;
 }
+img {
+  display: block;
+}
 .link,
 .street,
 .logo,
